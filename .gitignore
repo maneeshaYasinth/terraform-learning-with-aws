@@ -22,3 +22,11 @@ override.tf.json
 # CLI configuration files
 .terraformrc
 terraform.rc
+
+
+# Custom: Ignore SSH private keys
+*.pem
+id_rsa*
+
+# Custom: Ignore archive files (if using lambda/zip functions)
+*.zip
