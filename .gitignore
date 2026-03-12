@@ -30,3 +30,5 @@ id_rsa*
 
 # Custom: Ignore archive files (if using lambda/zip functions)
 *.zip
+
+.DS_Store
